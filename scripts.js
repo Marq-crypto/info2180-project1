@@ -4,7 +4,6 @@
 window.onload= ()=>{
     var p=document.getElementById("email");
     let b=document.getElementsByClassName("message");
-    let e=document.getElementsByTagName("form");
     let o=document.getElementsByTagName("button")[0];
     const entry =(r) => {
         r.preventDefault();
@@ -20,7 +19,6 @@ window.onload= ()=>{
     function displayemail(){
         if(p!=null){
             alert("Thank you!Your email address"+ "" + p.value + "" + "has been added to our mailing list!");
-            p.clear();
     
         }
     }

@@ -11,6 +11,7 @@ body {
     grid-column-gap: 50px;
     max-width: 960px;
     width: 100%;
+    padding: 10px;
    
 }
 header{
@@ -44,8 +45,9 @@ li{
 }
 #image1{
     padding: 15px;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
+    float: left;
 
 }
 #image2{
@@ -70,7 +72,6 @@ li{
     width: 250px;
     height: 250px;
 }
-
 .learn-about h2{
     font-size: 24px;
     color:#48BB78;
@@ -82,8 +83,12 @@ li{
 .testing{
     background-color: #4A5568;
     color: white;
+
 }
-.btn{
+.testing-description p{
+    float:left;
+}
+.testing .btn{
     background-color: #48BB78;
     float:right;
     border-radius: 5px;
@@ -107,10 +112,16 @@ li{
 }
 .newsletter button{
     background-color: #5A67D8;
-    display: inline-block;
+    color: white;
+    padding: 10px;
+    float: left;
 }
 .newsletter input{
-    display: inline-block;
+    width: 350px;
+    height: 30px;
+    padding-right: 25px;
+    float: left;
+
 }
 footer{
     background-color: #4A5568;
@@ -119,15 +130,7 @@ footer{
 .overview-hero{
     background-color: #E2E8F0;
 }
-.overview-hero-image img{
-    float: left;
-}
-.overview-hero-text p{
-    float: right;
-}
-.overview-hero .overview-hero,.overview-hero .overview-hero-text{
-    display: inline;
-}
+
 .cards{
     display: grid;
     grid-template-columns: 300px 300px 300px;
